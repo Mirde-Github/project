@@ -1,6 +1,6 @@
 
 const mongoose = require('mongoose')
-
+//this is
 // const uri = 'mongodb://localhost/Real-Eastate'
 const uri =process.env.database_url
 mongoose.set('strictQuery', true)
